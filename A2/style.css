@@ -1,0 +1,539 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.heroSection{
+    width: 100%;
+    background-color: ghostwhite;
+    overflow: auto; /* بستخدمة علشان لما اعمل margin-top لل child ميكنش لازق فيه */
+}
+
+.heroContainer{
+    width: 75%;
+    margin: 50px auto 40px auto;
+} 
+
+.heroContent{
+    float: left;
+    width: 55%;
+}
+
+.heroContent h1{
+    font-size: 62px;
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.heroContent p{
+    color: dimgray;
+    font-size: 18px;
+    line-height: 1.6; /*line space in paragraph*/
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.heroContent .btn{
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer; /*button pointer*/
+    display: inline-block;
+}
+
+.heroContent .btn1{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+}
+
+.heroContent .btn2{
+    background-color: white;
+    color: dimgray;
+    border-color: dimgray;
+}
+
+.heroImg{
+    float: right;
+    width: 42%;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.heroImg img{
+    width: 80%;
+    border-radius: 20px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/*******************************************************************************************************/
+
+/* why choose us section */
+
+.whyUs,
+.formSection{
+    width: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.whyUs_container, 
+.memberContainer,
+.formContainer,
+.footerContainer{
+    width: 75%;
+    margin: 0 auto 0;
+}
+
+.whyUs_content,
+.memberTitle,
+.formContent{
+    width: 100%;
+    margin: 80px 0 60px 0;
+    text-align: center;
+}
+
+.whyUs_content h2,
+.memberTitle h2,
+.formContent h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.whyUs_content p,
+.memberTitle p,
+.formContent p{
+    color: dimgray;
+    font-size: 18px;
+    line-height: 1.6; /*line space in paragraph*/
+    width: 65%;
+    margin: 0 auto 30px auto;
+}
+
+.whyUs_cards,
+.memberCard{
+    width: 100%;
+    margin: 0 auto 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards{
+    width: 26%;
+    float: left;
+    border-radius: 15px;
+    margin: 0 3.333% 0 0;
+    text-align: center;
+    padding: 0 20px 0;
+}
+
+.icon{
+    width: 65px;
+    height: 65px;
+    border-radius: 12px;
+    margin: 25px auto 20px;
+    overflow: auto;
+}
+
+.whyUs_firstCard{
+    background-color: #dbeafe;
+}
+
+.cards h3{
+    font-size: 20px;
+}
+
+.cards p{
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.whyUs_secondCard{
+    background-color: #d1fae5;
+}
+
+.whyUs_thirdCard{
+    background-color: #ede9fe;
+    /* padding-bottom: 23px; */
+}
+
+.whyUs_firstCard .icon{
+    background-color: #2563eb;
+}
+
+.whyUs_secondCard .icon{
+    background-color: #059669;
+}
+
+.whyUs_thirdCard .icon{
+    background-color: #7c3aed;
+}
+
+.common{
+    width: 28px;
+    height: 28px;
+    margin: 18px auto;
+    background-color: white;
+}
+
+.whyUs_firstCard .icon .icon1{
+    border-radius: 8px;
+}
+
+.whyUs_secondCard .icon .icon2{
+    border-radius: 15px;
+}
+
+.whyUs_thirdCard .icon .icon3{
+    border-radius: 5px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.whyUs_last{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.whyUs_last_img{
+    float: left;
+    width: 46%;
+}
+
+.whyUs_last_img img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.whyUs_last_content{
+    float: right;
+    width: 50%;
+}
+
+.whyUs_last_content h3{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+
+.clear-fix{
+    clear: both;
+}
+
+.feature{
+    border-left: 4px solid black; /* الخط */
+    padding-left: 15px;            /* يبعد الكلام عن الخط */
+    margin-bottom: 25px;
+}
+
+.feature h4{
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+
+.feature p{
+    margin: 0;
+    color: dimgray;
+}
+
+
+/*******************************************************************************************************/
+
+/* members section */
+
+
+.memberSection{
+    width: 100%;
+    background-color: ghostwhite;
+    overflow: auto;
+}
+
+
+
+.member{
+    width: 100%;
+    
+}
+
+.member img{
+    width: 70px;
+    border-radius: 40px;
+    float: left;
+}
+
+.memberContent{
+    float: left;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.memberContent h4{
+    margin: 5px 0 0 0;
+    font-size: 19px;
+}
+
+.memberContent p{
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: dimgray;
+}
+
+.memcards p{
+    text-align: left;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.memcards{
+    width: 28%;
+    float: left;
+    border-radius: 15px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    /* padding: 0 20px 0; */
+}
+
+
+.member_firstCard{
+    background-color: #dbeafe;
+}
+
+.member_secondCard{
+    background-color: #d1fae5;
+}
+
+.member_thirdCard{
+    background-color: #ede9fe;
+}
+
+
+.memNumbers{
+    width: 100%;
+    background-color: #e0edfd;
+    border-radius: 15px;
+    padding: 30px 0;
+    margin: 40px 0 70px;
+}
+
+.num{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.num h4{
+    margin: 0;
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.num p{
+    margin: 8px 0 0;
+    color: #374151;
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/*******************************************************************************************************/
+
+/* form section */
+
+.formBox{
+    width: 70%;
+    margin: 40px auto 70px;
+    background-color: #f3f4f6;
+    padding: 30px 0 30px 50px;
+    border-radius: 15px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.half{
+    width: 47%;
+    float: left;
+}
+
+
+
+label{
+    padding-top: 20px;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #212732;
+}
+
+input, select, textarea{
+    width: 90%;
+    padding: 20px 12px;
+    border-radius: 8px;
+    background-color: #f3f4f6;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+select{
+    width: 93%;
+}
+
+textarea{
+    height: 50px;
+    resize: none;
+}
+
+.submitBtn{
+    width: 93%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.formBox p{
+    color: dimgray;
+    font-size: 14px;
+    width: 65%;
+    margin: 35px auto 25px auto;
+}
+
+/*******************************************************************************************************/
+
+/* footer section */
+
+.footer{
+    width: 100%;
+    background-color: #212732;
+    overflow: auto;
+    color: white;
+}
+
+.footerContent{
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.footerContent_first{
+    width: 50%;
+    float: left;
+}
+
+.footerContent_second{
+    float: left;
+    width: 20%;
+    
+}
+
+.footerContent_third{
+    float: left;
+    width: 20%;
+    padding-left: 85px;
+}
+
+.footerContent_first h3{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footerContent_first p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: lightgrey;
+}
+
+.footerContent_first ul{
+    padding: 0;
+    margin: 0;
+}
+
+.footerContent_first ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    color: lightgrey;
+    margin-right: 30px;
+    
+}
+
+.footerContent_second h3{
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.footerContent_third h3{
+    margin-top: 30px;
+}
+
+.footerContent_second ul li{
+    list-style: none;
+    cursor: pointer;
+    color: lightgrey;
+    line-height: 2;
+}
+
+.footerContent_third p{
+    color: lightgrey;
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+.footerContent_third h4{
+    margin-bottom: 0;
+}
+
+.click{
+    cursor: pointer;
+}
+
+.copyright{
+    width: 100%;
+    border-top: 1px solid lightgray;
+    color: lightgray;
+    font-size: smaller;
+    padding-bottom: 50px;
+}
+
+.copyright p{
+    float: left;
+}
+
+.copyright ul{
+    float: right;
+}
+
+.copyright ul li{
+    display: inline-block;
+    cursor: pointer;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
